@@ -1,0 +1,6 @@
+{
+  "name": "incident-response-app",
+  "description": "A visually appealing, incident-response-app created with React, TypeScript, and Tailwind CSS. It features a clean design, smooth animations, and user-friendly input fields.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For a smooth background transition */
+body {
+  transition: background-color 0.5s ease;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .printable-area {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body > * {
+    display: none;
+  }
+}
